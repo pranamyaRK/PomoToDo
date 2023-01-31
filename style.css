@@ -1,0 +1,49 @@
+body {
+    background-image: url("sunset.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    display: grid;
+    margin: auto;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.begin {
+    display: inline;
+    margin: auto;
+    text-align: center;
+}
+
+.begin-button {
+    padding: 10px 20px;
+}
+
+.space {
+    padding: 20px;
+    margin: auto;
+}
+
+#timer {
+    font-size: 70px;
+    padding: 80px;
+    background: rgba(255, 255, 255, 0.45);
+    border-radius: 30px;
+}
+
+button {
+    margin: 0 7px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.75);
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    box-shadow: 5px 5px rgba(0,0,0,0.24);
+}
+
+button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
